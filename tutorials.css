@@ -1,7 +1,5 @@
 /* -----------Tutorials----------- */
 
-/* Tutorials styling made with help from friend */
-
 .tutorial-section {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
