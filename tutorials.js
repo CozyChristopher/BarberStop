@@ -53,7 +53,7 @@ const sections = [
         link: "https://www.youtube.com/watch?v=C9P5NGPkd38&ab_channel=RumBarber"
       },
       {
-        title: "Sectionning",
+        title: "Sectioning",
         link: "https://www.youtube.com/watch?v=zkAvvtuHSKI&ab_channel=StephenJ"
       },
       {
