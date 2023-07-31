@@ -38,10 +38,6 @@ const sections = [
       {
         title: "High Taper Fade",
         link: "https://www.youtube.com/watch?v=lPq2xPjI1Zw&ab_channel=MartyBlendz"
-      },
-      {
-        title: "High Burst Fade Technique",
-        link: "https://www.youtube.com/shorts/BSWWHndFoUs"
       }
     ]
   },
