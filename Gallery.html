@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" href="gallery.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Gallery</title>
+  <script src="./lib/jquery.js"></script>
+  <script defer src="./gallery.js"></script>
+  <script defer src="./index.js"></script>
+</head>
+
+<body>
+  <div id="header">
+    <img src="../img/bnwbarbershop2.jpg" alt="" id="header-img">
+    <h1 class="mainTitle"> <span> Barberstop </span> </h1>
+  </div>
+
+  <div id="navigation">
+    <nav>
+      <ul>
+        <li>
+          <a href="./index.html"> Home </a>
+        </li>
+        <li>
+          <a href="./Tools.html"> Tools </a>
+        </li>
+        <li>
+          <a href="./Tutorials.html"> Tutorials </a>
+        </li>
+        <li> <a href="./Gallery.html"> Gallery </a>
+        </li>
+        <li>
+          <a href="./History.html"> History </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+  <div id="mobile-nav">
+    <button id="menu-btn">
+      <svg class="hamburger-icon" xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 20 20" fill="currentColor" ariaHidden="true">
+        <path fillRule="evenodd"
+          d="M2 4.75A.75.75 0 012.75 4h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 4.75zM2 10a.75.75 0 01.75-.75h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 10zm0 5.25a.75.75 0 01.75-.75h14.5a.75.75 0 010 1.5H2.75a.75.75 0 01-.75-.75z"
+          clipRule="evenodd" />
+      </svg>
+      <svg class="close-icon" xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 20 20" fill="currentColor" ariaHidden="true">
+        <path
+          d="M6.28 5.22a.75.75 0 00-1.06 1.06L8.94 10l-3.72 3.72a.75.75 0 101.06 1.06L10 11.06l3.72 3.72a.75.75 0 101.06-1.06L11.06 10l3.72-3.72a.75.75 0 00-1.06-1.06L10 8.94 6.28 5.22z" />
+      </svg>
+
+    </button>
+    <nav id="nav-panel">
+      <ul>
+        <li>
+          <a href="./index.html"> Home </a>
+        </li>
+        <li>
+          <a href="./Tools.html"> Tools </a>
+        </li>
+        <li>
+          <a href="./Tutorials.html"> Tutorials </a>
+        </li>
+        <li> <a href="./Gallery.html"> Gallery </a>
+        </li>
+        <li>
+          <a href="./History.html"> History </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+
+  <div class="container">
+    <h2> <span> Hair Inspiration </span> </h2>
+
+    <p> When asking for a haircut, it is most common to split the head up into
+      two. Most hairstyles for men will cut
+      more off the sides and
+      leave more hair at the top of the head. There are countless ways to cut
+      one's top and sides. There are also
+      various ways a barber may
+      connect the top hair to the side hair. If your barber is willing, they may
+      take care of your facial hair as well.
+      Therefore, when giving your barber instructions be as precise as possible
+      to ensure
+      that you get your desired hairstyle. Each photo has intructions for
+      clients asking their barber what they want and
+      for barbers
+      who want to learn how to replicate it. Below is a quick overview of common
+      instructions and their meanings. </p>
+  </div>
+
+  <div class="container">
+    <table>
+      <tr>
+        <th>Instruction</th>
+        <th>Translation</th>
+      </tr>
+      <tr>
+        <td>Fade</td>
+        <td>Cutting technique that tapers the hair so it eventually “fades”.
+          Most commonly, bald to 1/4 inch (#2).</td>
+      </tr>
+      <tr>
+        <td>Taper</td>
+        <td>Gradual reduction in thickness towards one end.</td>
+      </tr>
+      <tr>
+        <td>Number "X" on the sides</td>
+        <td>Leave "X" 1/8 inches of hair after cutting it.
+          The higher the number, the less hair is cut. Most commonly
+          the guards range from 0-8 with the 8 guard leaving 1 inch of hair.
+        </td>
+      </tr>
+      <tr>
+        <td>Trim the top</td>
+        <td>Take half an inch off the top</td>
+      </tr>
+      <tr>
+        <td>Line-up</td>
+        <td>Make the edges of my hairline sharp</td>
+      </tr>
+    </table>
+  </div>
+
+
+  <div class="container">
+    <h2> <span> Gallery </span> </h2>
+  </div>
+
+  <div class="container">
+    <div class="gallery" id="gallery" />
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" href="homepage.css">
+  <link rel="stylesheet" href="style.css">
+
+  <script src="./lib/jquery.js"></script>
+  <script defer src="./index.js"></script>
+  <script defer src="./index.js"></script>
+  <title>Barberstop Homepage</title>
+</head>
+
+<body>
+  <div id="header">
+    <img src="../img/bnwbarbershop2.jpg" alt="" id="header-img">
+    <h1 class="mainTitle"> <span> Barberstop </span> </h1>
+  </div>
+
+  <div id="navigation">
+    <nav>
+      <ul>
+        <li>
+          <a href="./index.html"> Home </a>
+        </li>
+        <li>
+          <a href="./Tools.html"> Tools </a>
+        </li>
+        <li>
+          <a href="./Tutorials.html"> Tutorials </a>
+        </li>
+        <li> <a href="./Gallery.html"> Gallery </a>
+        </li>
+        <li>
+          <a href="./History.html"> History </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+  <div id="mobile-nav">
+    <button id="menu-btn">
+      <svg class="hamburger-icon" xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 20 20" fill="currentColor" ariaHidden="true">
+        <path fillRule="evenodd"
+          d="M2 4.75A.75.75 0 012.75 4h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 4.75zM2 10a.75.75 0 01.75-.75h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 10zm0 5.25a.75.75 0 01.75-.75h14.5a.75.75 0 010 1.5H2.75a.75.75 0 01-.75-.75z"
+          clipRule="evenodd" />
+      </svg>
+      <svg class="close-icon" xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 20 20" fill="currentColor" ariaHidden="true">
+        <path
+          d="M6.28 5.22a.75.75 0 00-1.06 1.06L8.94 10l-3.72 3.72a.75.75 0 101.06 1.06L10 11.06l3.72 3.72a.75.75 0 101.06-1.06L11.06 10l3.72-3.72a.75.75 0 00-1.06-1.06L10 8.94 6.28 5.22z" />
+      </svg>
+
+    </button>
+    <nav id="nav-panel">
+      <ul>
+        <li>
+          <a href="./index.html"> Home </a>
+        </li>
+        <li>
+          <a href="./Tools.html"> Tools </a>
+        </li>
+        <li>
+          <a href="./Tutorials.html"> Tutorials </a>
+        </li>
+        <li> <a href="./Gallery.html"> Gallery </a>
+        </li>
+        <li>
+          <a href="./History.html"> History </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+
+  <div class="container">
+    <h2> <span> What is Barberstop? </span> </h2>
+
+    <p> Barberstop is the one stop shop for anyone interested in Men's grooming.
+      This site includes descriptions of
+      tools
+      that barbers use, embedded tutorials for cutting hair, a gallery of
+      hairstyles for people to look at and recreate,
+      and a historical component for anyone who wants to know how their male
+      ancestors styled their heads. </p>
+
+    <h2> <span> About the Creator </span> </h2>
+
+    <p> Hi my name is Christopher. I am a 4th year student at McMaster
+      University studying Computer Science. I have been
+      cutting hair
+      8 years and have learned a great deal during this time. I made this
+      website for a university credit but I hope
+      that
+      one day
+      barbers from around the world will be using this website to learn and
+      browse. </p>
+  </div>
+
+  <div class="container">
+    <div class="contact">
+      <h2> <span> Contact Me <span> </h2>
+
+      <p> For any inquiries feel free to contact me with the following form.</p>
+
+      <form id="form" action="https://api.web3forms.com/submit" method="post">
+        <input type="hidden" name="access_key"
+          value="5c2c7489-68fd-4ad2-aa0b-8c9bce1634bb">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><br>
+        <label for="email">Email:</label><br>
+        <input type="text" id="email" name="email"><br>
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message"></textarea><br>
+        <button type="submit" value="Submit">Submit</button>
+        <div id="error"> </div>
+      </form>
+    </div>
+  </div>
+
+
+</body>
+
+</html>

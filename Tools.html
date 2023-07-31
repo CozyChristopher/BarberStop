@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" href="tools.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="./lib/jquery.js"></script>
+    <script defer src="./tools.js"></script>
+    <script defer src="./index.js"></script>
+    <title>Gallery</title>
+</head>
+
+<body>
+    <div id="header">
+        <img src="../img/bnwbarbershop2.jpg" alt="" id="header-img">
+        <h1 class="mainTitle"> <span> Barberstop </span> </h1>
+    </div>
+
+    <div id="navigation">
+        <nav>
+            <ul>
+                <li>
+                    <a href="./index.html"> Home </a>
+                </li>
+                <li>
+                    <a href="./Tools.html"> Tools </a>
+                </li>
+                <li>
+                    <a href="./Tutorials.html"> Tutorials </a>
+                </li>
+                <li> <a href="./Gallery.html"> Gallery </a>
+                </li>
+                <li>
+                    <a href="./History.html"> History </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <div id="mobile-nav">
+        <button id="menu-btn">
+            <svg class="hamburger-icon" xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20" fill="currentColor" ariaHidden="true">
+                <path fillRule="evenodd"
+                    d="M2 4.75A.75.75 0 012.75 4h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 4.75zM2 10a.75.75 0 01.75-.75h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 10zm0 5.25a.75.75 0 01.75-.75h14.5a.75.75 0 010 1.5H2.75a.75.75 0 01-.75-.75z"
+                    clipRule="evenodd" />
+            </svg>
+            <svg class="close-icon" xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20" fill="currentColor" ariaHidden="true">
+                <path
+                    d="M6.28 5.22a.75.75 0 00-1.06 1.06L8.94 10l-3.72 3.72a.75.75 0 101.06 1.06L10 11.06l3.72 3.72a.75.75 0 101.06-1.06L11.06 10l3.72-3.72a.75.75 0 00-1.06-1.06L10 8.94 6.28 5.22z" />
+            </svg>
+
+        </button>
+        <nav id="nav-panel">
+            <ul>
+                <li>
+                    <a href="./index.html"> Home </a>
+                </li>
+                <li>
+                    <a href="./Tools.html"> Tools </a>
+                </li>
+                <li>
+                    <a href="./Tutorials.html"> Tutorials </a>
+                </li>
+                <li> <a href="./Gallery.html"> Gallery </a>
+                </li>
+                <li>
+                    <a href="./History.html"> History </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="container">
+        <h2> <span> Tool Selection </span> </h2>
+
+        <p> The tools you select will heavily impact your ability as a barber.
+            Although not necessary, finding the best
+            tools for you will be quite important.
+            Don't settle on the cheapest clipper you can find thinking they're
+            all the same. They aren't. The tools you use may not have the
+            biggest impact on the quality of your work,
+            but it is the most important factor in
+            the experience you have and give to your client will have. This page
+            will walk you through all the tools
+            that will
+            give you the confidence to give your clients your best work.
+        </p>
+
+    </div>
+
+    <div class="container">
+        <table>
+            <tr>
+                <th>Tool</th>
+                <th>Meaning</th>
+            </tr>
+            <tr>
+                <td>Clipper</td>
+                <td>Most commonly used tool for cutting hair. Used in
+                    association
+                    with guards
+                    and combs.
+                </td>
+            </tr>
+            <tr>
+                <td>Guard</td>
+                <td>
+                    Covering used on cilppers to leave certain lengths of hair
+                    on
+                    the head cuts. Usually numbered 1-8.
+                </td>
+            </tr>
+            <tr>
+                <td>Detailer</td>
+                <td>Smaller clipper used for trimming short hair or detaiing
+                    (designs, line-ups)</td>
+            </tr>
+            <tr>
+                <td>Buffer</td>
+                <td>Shaver. This tool leaves no hair behind but is not as
+                    precise as
+                    a razor. </td>
+            </tr>
+            <tr>
+                <td>Shears</td>
+                <td>Scissors</td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Slideshow container code from https://www.w3schools.com/howto/howto_js_slideshow.asp -->
+
+    <!-- Slideshow container -->
+    <div id="slideshow">
+        <div id="slides"></div>
+        <a target="_blank" id="slide-link"></a>
+        <a class="prev">&#10094;</a>
+        <a class="next">&#10095;</a>
+    </div>
+
+
+    <br>
+
+    <!-- The dots/circles -->
+    <div style="text-align:center" id="dots">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+    </div>
+
+    <div class="gallery">
+
+    </div>
+</body>
+
+</html>
